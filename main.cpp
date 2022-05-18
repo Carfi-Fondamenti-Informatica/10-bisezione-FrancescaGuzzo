@@ -3,7 +3,7 @@
 #include <math.h>
 using namespace std;
 
-float f(int n){
+float f(float n){
     float y;
     y= (pow(n,2))*(cos(n))+1;
     return y;
