@@ -33,8 +33,7 @@ int main(){
         err=abs((b-a)/2);
     }while(err > 1e-6);
 
-    cout << x << endl;
-    cout << f(x) << endl;
+    cout<<int(x*10000)/10000.0<<endl;
 
     return 0;
 }
